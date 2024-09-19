@@ -1,0 +1,28 @@
+﻿@using LABSOLDAY14MVC.Models.ViewModels
+@model CourseVM
+<div class="card" style="width: 18rem; margin-top:-155px;">
+    <div class="card-body">
+        <h5 class="card-title">CourseID: @Model.id</h5>
+        <h5 class="card-text">CourseName: @Model.name</h5>
+        <p class="card-text">CourseDegree : @Model.degree</p>
+        <p class="card-text">CourseMinDegree: @Model.minDegree</p>
+        <p class="card-text">Department: @Model.department</p>
+        <p>instructors:</p>
+        <ul class="card-text">
+            
+            @foreach (var inst in Model.instructor)
+            { 
+                <li>@inst</li>
+            }
+        </ul>
+        <p>Trainees:</p>
+        <ul class="card-text">
+            
+            @foreach (var trainees in Model.trainees)
+            {
+                <li>@trainees</li>
+            }
+        </ul>
+    </div>
+</div>
+

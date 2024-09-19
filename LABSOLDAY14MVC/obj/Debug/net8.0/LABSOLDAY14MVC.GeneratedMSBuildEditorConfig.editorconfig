@@ -1,0 +1,135 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LABSOLDAY14MVC
+build_property.RootNamespace = LABSOLDAY14MVC
+build_property.ProjectDir = D:\ITI Recording\Day 14 mvc\LABSOLDAY14MVC\LABSOLDAY14MVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ITI Recording\Day 14 mvc\LABSOLDAY14MVC\LABSOLDAY14MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Course/GetAllCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEdldEFsbENvdXJzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Course/GetSpecificCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEdldFNwZWNpZmljQ291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Course/NewCrs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXE5ld0Nycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Course/UpdateAndAddPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXFVwZGF0ZUFuZEFkZFBhcnRpYWxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Course/UpdateCrs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXFVwZGF0ZUNycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Department/DeptAddAndUpdatePartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZXB0QWRkQW5kVXBkYXRlUGFydGlhbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Department/getAllDepartments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxnZXRBbGxEZXBhcnRtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Department/getSpecificDepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxnZXRTcGVjaWZpY0RlcGFydG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Department/NewDepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxOZXdEZXBhcnRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Department/UpdateDept.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxVcGRhdGVEZXB0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Instructor/getAllInstructor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxnZXRBbGxJbnN0cnVjdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Instructor/getSpecificInstructor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxnZXRTcGVjaWZpY0luc3RydWN0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Instructor/instAddAndUpdatePartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxpbnN0QWRkQW5kVXBkYXRlUGFydGlhbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Instructor/NewInst.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxOZXdJbnN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Instructor/UpdateInst.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxVcGRhdGVJbnN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Trainee/GetAllTrainees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxHZXRBbGxUcmFpbmVlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Trainee/GetSpecificTrainee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxHZXRTcGVjaWZpY1RyYWluZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Trainee/NewTrainee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxOZXdUcmFpbmVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Trainee/trnAddAndUpdatePartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVx0cm5BZGRBbmRVcGRhdGVQYXJ0aWFsVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Trainee/UpdateTrn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxVcGRhdGVUcm4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Recording/Day 14 mvc/LABSOLDAY14MVC/LABSOLDAY14MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-julfdfxuxk

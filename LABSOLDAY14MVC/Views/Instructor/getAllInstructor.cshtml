@@ -1,0 +1,32 @@
+﻿@model List<Instructor>
+<div style="max-height: 700px; overflow-y: auto; margin-top: -5cm; margin-left: 0; width: 100%;">
+    <table class="table table-striped" style="width: 100%;">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Address</th>
+                <th scope="col">Salary</th>
+                <th scope="col">
+                    <a href="/Instructor/NewInst" class="btn btn-outline-info" style="width:75px;">New</a>
+                </th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var inst in Model)
+            {
+                <tr>
+                    <th scope="row">@inst.id</th>
+                    <td>@inst.name</td>
+                    <td>@inst.address</td>
+                    <td>@inst.salary</td>
+                    <td><a href="/instructor/getspecificinstructor/@inst.id" class="btn btn-outline-secondary">Details</a></td>
+                    <td><a href="/instructor/UpdateInst/@inst.id" class="btn btn-outline-info">Update</a></td>
+                    <td><a href="/instructor/DeleteInst/@inst.id" class="btn btn-outline-danger">Delete</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

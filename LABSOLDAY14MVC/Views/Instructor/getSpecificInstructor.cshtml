@@ -1,0 +1,13 @@
+﻿@model Instructor
+
+<div class="card" style="width: 18rem;margin-top:-155px;">
+    <img class="card-img-top" src="/Images/@Model.imag" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">@Model.name</h5>
+        <p class="card-text">@Model.address</p>
+        <p class="card-text">@Model.salary</p>
+        <p class="card-text">department: @Model.department?.name</p>
+        <p class="card-text">Course You Explain: @Model.course?.name</p>      
+        <a href="/Instructor/getallinstructor" class="btn btn-primary">Show All Instructors</a>
+    </div>
+</div>

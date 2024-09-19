@@ -1,0 +1,19 @@
+﻿@using LABSOLDAY14MVC.Models.ViewModels
+@model TraineeVM
+<div class="card" style="width: 18rem; margin-top:-155px;">
+    <div class="card-body">
+        <img class="card-img-top" src="/Images/@Model.imag" alt="Card image cap">
+        <h5 class="card-title">TraineeID: @Model.id</h5>
+        <h5 class="card-text">TraineeName: @Model.name</h5>
+        <p class="card-text">TraineeAddress : @Model.Address</p>
+        <p class="card-text">Department: @Model.department</p>
+        <p>Courses You Take:</p>
+        <ul class="card-text">
+            @foreach (var g in Model.crs_grd)
+            {
+                <li style="color:@g.color">course : @g.course  grade : @g.grade</li>
+            }
+        </ul>
+    </div>
+</div>
+

@@ -1,0 +1,10 @@
+﻿@model Instructor
+<form asp-action="SaveUpdateInst" asp-controller="Instructor" method="post" class="formStyle" style="margin-top:-5cm;">
+    <input type="hidden" asp-for="id" />
+    <partial name="instAddAndUpdatePartialView" />
+</form>
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

@@ -1,0 +1,5 @@
+﻿@model Department
+<form asp-action="SaveUpdateDept" asp-controller="Department" method="post" class="formStyle" style="margin-top:-5cm;">
+    <input type="hidden" asp-for="id" />
+    <partial name="DeptAddAndUpdatePartialView" />
+</form>

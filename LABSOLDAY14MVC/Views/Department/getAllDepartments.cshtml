@@ -1,0 +1,28 @@
+﻿@model List<Department>
+<div style="max-height: 700px; overflow-y: auto; margin-top: -12cm; margin-left: 0; width: 100%;">
+    <table class="table table-striped" style="width: 100%;">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Manager</th>
+            <th><a href="/Department/NewDepartment" class="btn btn-outline-info" style="width:80;">New</a></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dept in Model)
+        {
+            <tr>
+                <th scope="row">@dept.id</th>
+                <td>@dept.name</td>
+                <td>@dept.Manager</td>
+                <td><a href="/Department/getspecificdepartment/@dept.id" class="btn btn-outline-secondary">Details</a></td>
+                <td><a href="/Department/UpdateDept/@dept.id" class="btn btn-outline-info">Update</a></td>
+                <td><a href="/Department/DeleteDept/@dept.id" class="btn btn-outline-danger">Delete</a></td>
+
+            </tr>
+        }
+    </tbody>
+</table>

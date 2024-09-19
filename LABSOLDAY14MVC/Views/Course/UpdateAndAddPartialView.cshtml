@@ -1,0 +1,28 @@
+﻿@model Course
+@{
+    SelectList DeptOpt = new SelectList(ViewBag.departments, "id", "name");
+}
+<div class="form-group">
+    <label asp-for="name" style="margin-top:12px; font-weight:400;font-size:20px;margin-bottom:3px;"></label>
+    <input asp-for="name" class="form-control form-control-lg" placeholder="Enter Name" />
+    <span asp-validation-for="name" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="degree" style="margin-top:12px; font-weight:400;font-size:20px;margin-bottom:3px;">Degree</label>
+    <input asp-for="degree" class="form-control form-control-lg" placeholder="Enter Name" />
+    <span asp-validation-for="degree" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="minDegree" style="margin-top:12px; font-weight:400;font-size:20px;margin-bottom:3px;">Min Degree</label>
+    <input asp-for="minDegree" class="form-control form-control-lg" placeholder="Enter Name" />
+    <span asp-validation-for="minDegree" class="text-danger"></span>
+<div class="form-group">
+    <label asp-for="dept_id" style="margin-top:12px; font-weight:400;font-size:20px;">Department</label>
+    <select asp-for="dept_id" asp-items="DeptOpt" class="form-control">
+    </select>
+    <span asp-validation-for="dept_id" class="text-danger"></span>
+</div>
+<br />
+<button type="submit" class="btn btn-primary btn-lg">Submit</button>
+</div>
+<br />

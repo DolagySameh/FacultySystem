@@ -1,0 +1,30 @@
+﻿@model Department
+<div class="card" style="width: 18rem; margin-top:-155px;">
+    <div class="card-body">
+        <h5 class="card-title">Department ID: @Model.id</h5>
+        <h5 class="card-text">Department Name: @Model.name</h5>
+        <p class="card-text">Department Manager : @Model.Manager</p>
+        <p>Courses in this Departments are:</p>
+        <ul class="card-text">
+            @foreach (var g in Model.courses)
+            {
+                <li>@g.name</li>
+            }
+        </ul>
+        <p>Instructors in this Departments are:</p>
+        <ul class="card-text">
+            @foreach (var g in Model.instructors)
+            {
+                <li>@g.name</li>
+            }
+        </ul>
+        <p>Trainees IN Departments are:</p>
+        <ul class="card-text">
+            @foreach (var g in Model.trainees)
+            {
+                <li>@g.name</li>
+            }
+        </ul>
+    </div>
+</div>
+

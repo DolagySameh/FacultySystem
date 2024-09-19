@@ -1,0 +1,40 @@
+﻿@model Instructor
+@{
+    SelectList CrsOpt = new SelectList(ViewBag.courses, "id", "name");
+    SelectList DeptOpt = new SelectList(ViewBag.departments, "id", "name");
+}
+<h2 class="mb-4">Instructor Information</h2>
+<div class="form-group">
+    <label asp-for="name" style="margin-top:12px; font-weight:400;font-size:20px;margin-bottom:3px;"></label>
+    <input asp-for="name" class="form-control form-control-lg" placeholder="Enter Name" />
+    <span asp-validation-for="name" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="address" style="margin-top:12px; font-weight:400;font-size:20px;margin-bottom:3px;">Address</label>
+    <input asp-for="address" class="form-control form-control-lg" placeholder="Enter Name" />
+    <span asp-validation-for="address" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="imag" style="margin-top:12px; font-weight:400;font-size:20px;margin-bottom:3px;">ImageUrl</label>
+    <input asp-for="imag" class="form-control form-control-lg" placeholder="Enter Name" />
+    <span asp-validation-for="imag" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="salary" style="margin-top:12px; font-weight:400;font-size:20px;margin-bottom:3px;">Salary</label>
+    <input asp-for="salary" class="form-control form-control-lg" placeholder="Enter Salary" />
+    <span asp-validation-for="salary" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="crs_id" style="margin-top:12px; font-weight:400;font-size:20px;margin-bottom:3px;">Course He Explains</label>
+    <select asp-for="crs_id" asp-items="CrsOpt" class="form-control">
+    </select>
+    <span asp-validation-for="crs_id" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="dept_id" style="margin-top:12px; font-weight:400;font-size:20px;">Department</label>
+    <select asp-for="dept_id" asp-items="DeptOpt" class="form-control">
+    </select>
+    <span asp-validation-for="dept_id" class="text-danger"></span>
+</div>
+<br />
+<button type="submit" class="btn btn-primary btn-lg">Submit</button>
